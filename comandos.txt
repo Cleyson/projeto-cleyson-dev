@@ -15,3 +15,20 @@ git reflog
 git reset --hard 1658aa4
 
 git branch
+git checkout staging
+
+git pull
+git merge staging
+
+git push --force
+
+1.git pull da branch principal
+2.gerar uma nova branch a partir da branch principal
+3.Trabalhar  e adicionar novas funcionalidades na nova branch que criou
+4.Finalizar o trabalho na branch temporária
+5.Git checkout na branch principal
+6.Git pull
+7.Mergiar(unir) o código da branch temporária com principal(depois
+de testar)
+8.Git pish da branch principal
+
