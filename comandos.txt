@@ -1,0 +1,17 @@
+git init
+git status
+git add "nome"
+git add .
+git commit -m "commit inicial"
+git config --global user.email "cbm@cbm.com.br"
+git config --global user.name "CBM"
+git commit -m "commit inicial"
+
+git remote add origin https://github.com/Cleyson/projeto-cleyson-dev
+git push
+git push --set-upstream origin master
+
+git reflog
+git reset --hard 1658aa4
+
+git branch
